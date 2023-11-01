@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -101,7 +101,7 @@
       <div class="row justify-content-center">
 
 
-        <form class="col-12 col-md-10 my-2">
+        <form id="miFormulario" class="col-12 col-md-10 my-2">
           <div class="row mb-3">
             <div class="col">
               <input type="text" class="form-control" placeholder="Nombre">
@@ -131,16 +131,18 @@
 
         
         <div class="mb-3 alert alert-primary" role="alert">
-          Total a Pagar: $<span id="totalAPagar">0</span>
+          Total a Pagar: $<input id="totalAPagar" type="text" value="0" disabled>
         </div>
 
           <div class="mb-3">
             <button type="reset" class="btn btn-secondary me-2">Borrar</button>
-            <button onclick="clickResumen()" id="resumen"  class="btn btn-primary">Resumen</button>
+            <button onclick="clickResumen()" id="resumen" type="submit" class="btn btn-primary">Resumen</button>
           </div>
-        </div>
 
-      </form>
+
+        </form>
+
+      </div>
       </div>
 
  
