@@ -9,6 +9,13 @@ const resumen = document.querySelector("#resumen");
 
 
 
+document.getElementById("miFormulario").addEventListener("submit", function(event) {
+  
+  event.preventDefault();
+
+});
+ 
+
   function clickResumen() {
     
     let total = 0;
@@ -17,19 +24,19 @@ const resumen = document.querySelector("#resumen");
 
     total = (cantidad.value * 200) * 0.2;
     
-    totalAPagar.textContent = total; 
+    totalAPagar.value = total; 
       
     }
     if(categoria.value == 2){
       total = (cantidad.value * 200) * 0.5;
     
-    totalAPagar.textContent = total; 
+    totalAPagar.value = total; 
     }
     if (categoria.value == 3){
 
       total = (cantidad.value * 200) * 0.85;
     
-    totalAPagar.textContent = total; 
+    totalAPagar.value = total; 
       
     } 
     else
