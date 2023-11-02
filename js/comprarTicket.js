@@ -41,7 +41,7 @@ document.getElementById("miFormulario").addEventListener("submit", function(even
     } 
     else
     {
-      totalAPagar.value = " Faltan datos";
+      console.log("No ingresaste ninguna cantidad o categoria");
     }
 
 
