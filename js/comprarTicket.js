@@ -41,7 +41,7 @@ document.getElementById("miFormulario").addEventListener("submit", function(even
     } 
     else
     {
-      totalAPagar.value = "No ingresaste ninguna cantidad o categoria";
+      totalAPagar.value = " Indica cantidad y categoria";
     }
 
 
