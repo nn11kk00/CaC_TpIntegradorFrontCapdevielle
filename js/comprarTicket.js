@@ -24,7 +24,7 @@ document.getElementById("miFormulario").addEventListener("submit", function(even
 
     total = (cantidad.value * 200) * 0.2;
     
-    totalAPagar.value = "$" + total; 
+    totalAPagar.value = `$${total.toString()}`; 
       
     }
     if(categoria.value == 2){
