@@ -64,3 +64,8 @@
     form{
     margin-bottom: 50px;
     }
+
+#totalAPagar {
+    border: 1px transparent;
+    background: transparent;
+}
