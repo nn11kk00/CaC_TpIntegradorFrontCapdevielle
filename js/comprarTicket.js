@@ -24,19 +24,19 @@ document.getElementById("miFormulario").addEventListener("submit", function(even
 
     total = (cantidad.value * 200) * 0.2;
     
-    totalAPagar.value = total; 
+    totalAPagar.value = "$" + total.toString(); 
       
     }
     if(categoria.value == 2){
       total = (cantidad.value * 200) * 0.5;
     
-    totalAPagar.value = total; 
+    totalAPagar.value = "$" + total.toString(); 
     }
     if (categoria.value == 3){
 
       total = (cantidad.value * 200) * 0.85;
     
-    totalAPagar.value = total; 
+    totalAPagar.value = "$" + total.toString(); 
       
     } 
     else
